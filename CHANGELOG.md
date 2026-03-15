@@ -1,5 +1,16 @@
 Changelog: <https://flame.evetools.app/en/changelog>
 
+## 0.8.0 - 2026-03-15
+
+- **Firestore**:
+  - Multiple databases support, identifying default database from `firebase.json`
+  - Cache data by project/database to avoid full refresh when switching
+  - For so new documents show up immediately when added to a new collection
+- **App**:
+  - Fix app icon
+  - Fix tabs overflow
+  - Fix lag in bug report text field
+
 ## 0.7.1 - 2026-02-13
 
 - **Firestore**:
