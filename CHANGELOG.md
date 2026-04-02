@@ -1,5 +1,11 @@
 Changelog: <https://flame.evetools.app/en/changelog>
 
+## 0.8.0 - 2026-04-01
+
+- **App**:
+  - Same version but **now available on Windows!**
+  - And no this is not an April fools 😉
+
 ## 0.8.0 - 2026-03-15
 
 - **Firestore**:
