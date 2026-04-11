@@ -1,5 +1,18 @@
 Changelog: <https://flame.evetools.app/en/changelog>
 
+## 0.8.1 - 2026-04-11
+
+- **Firestore**:
+  - Fix string values containing `/` being mistaken for document references
+  - Fix timestamp editing and date picker
+  - Fix boolean type conversion
+  - Fix rerenders during column resizing
+
+## 0.8.0 - 2026-04-10
+
+- **App**:
+  - Same version but **now available on Linux!**
+
 ## 0.8.0 - 2026-04-01
 
 - **App**:
