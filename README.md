@@ -8,7 +8,7 @@ Better UX, more features, and native desktop performance, while staying
 fully compatible with your existing Firebase projects and emulator
 setup.
 
-![Flame](https://flame.evetools.app/og.webp)
+![Flame](https://flame.evetools.app/og/og.en.webp)
 
 ## Features
 
@@ -23,16 +23,12 @@ local emulator. No changes to your Firebase config or code required.
 
 ## Download
 
-Flame is in **open beta** and currently available for **macOS**.
+Flame is in **open beta** and available for **macOS**, **Windows**, and **Linux**.
 
 **[Download Flame](https://flame.evetools.app/en/download)** ·
 [Website](https://flame.evetools.app) ·
 [Features](https://flame.evetools.app/en/features) ·
 [FAQ](https://flame.evetools.app/en/faq)
-
-We're working on Windows and Linux. You can [get
-notified](https://flame.evetools.app/en/download#notify) when they're
-ready.
 
 ## Reporting issues
 
