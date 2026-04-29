@@ -1,5 +1,17 @@
 Changelog: <https://flame.evetools.app/en/changelog>
 
+## 0.9.0 - 2026-04-29
+
+- **Logs**: Redesigned logs tab with better JSON and multiline text handling
+
+## 0.8.2 - 2026-04-19
+
+- **App**:
+  - Faster ⌘K performance and support for jumping to a Firestore path
+- **Firestore**:
+  - Better performance when viewing large collections and when resizing the window
+  - Better column and subcollection navigation UX
+
 ## 0.8.1 - 2026-04-11
 
 - **Firestore**:
