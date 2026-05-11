@@ -1,13 +1,23 @@
 Changelog: <https://flame.evetools.app/en/changelog>
 
+## 0.9.1 - 2026-05-11
+
+- **App**:
+  - Add a reload menu item and shortcut
+- **Auth**:
+  - Fix disabling users
+- **Firestore**:
+  - More robust syncing and caching with self-heal
+- **Queues**:
+  - Fix double-encoding in queue messages
+
 ## 0.9.0 - 2026-04-29
 
 - **Logs**: Redesigned logs tab with better JSON and multiline text handling
 
 ## 0.8.2 - 2026-04-19
 
-- **App**:
-  - Faster ⌘K performance and support for jumping to a Firestore path
+- **App**: Faster ⌘K performance and support for jumping to a Firestore path
 - **Firestore**:
   - Better performance when viewing large collections and when resizing the window
   - Better column and subcollection navigation UX
@@ -22,8 +32,7 @@ Changelog: <https://flame.evetools.app/en/changelog>
 
 ## 0.8.0 - 2026-04-10
 
-- **App**:
-  - Same version but **now available on Linux!**
+- **App**: Same version but **now available on Linux!**
 
 ## 0.8.0 - 2026-04-01
 
@@ -107,15 +116,12 @@ Changelog: <https://flame.evetools.app/en/changelog>
   - JSON editor full height
   - Copy ID
   - Delete collection cache fix
-- **Storage**:
-  - Editable breadcrumb path
-- **App**:
-  - Footer with project switcher and system versions
+- **Storage**: Editable breadcrumb path
+- **App**: Footer with project switcher and system versions
 
 ## 0.2.x - 2026-01-15
 
 - **Firestore**:
   - Fix timestamp issues
   - Allow to turn off denied requests badge
-- **App**:
-  - Auto update
+- **App**: Auto update
