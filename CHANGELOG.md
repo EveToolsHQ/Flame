@@ -1,5 +1,9 @@
 Changelog: <https://flame.evetools.app/en/changelog>
 
+## 0.10.0 - 2026-05-13
+
+- Global design system update
+
 ## 0.9.1 - 2026-05-11
 
 - **App**:
