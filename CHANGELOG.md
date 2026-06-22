@@ -1,5 +1,20 @@
 Changelog: <https://useflame.app/en/changelog>
 
+## 1.1.0 - 2026-06-18
+
+- **App**:
+  - Subscription support with free trial
+
+## 1.0.0 - 2026-06-11 🎉
+
+- **App**:
+  - Left sidebar instead of top tabs and general redesign
+  - Full-size settings and Firestore requests
+  - Menu bar / tray support, run in the background to watch for indexes (see below)
+- **Firestore**:
+  - Firestore indexes watching, find out requests that will need an index in prod and add to `firestore.indexes.json`!
+  - Improved request details view
+
 ## 0.10.0 - 2026-05-13
 
 - Global design system update
