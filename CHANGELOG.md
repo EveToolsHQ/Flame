@@ -1,5 +1,44 @@
 Changelog: <https://useflame.app/en/changelog>
 
+## 1.4.0 - 2026-07-17
+
+- **App**:
+  - More context menu options (copy ID, value, path, open in Firebase Console, etc.)
+- **Firestore**:
+  - Highlight changes when document changes externally
+  - Type-colored field values
+  - Column headers redesign
+
+## 1.3.0 - 2026-07-16
+
+- **App**:
+  - Connect to live Firebase projects 🔥 (beta)
+  - Read-only mode (default for live projects)
+  - Settings redesign
+- **Firestore**:
+  - Field-level undo/redo
+  - Improved handling of document references
+  - Keep a journal of changes for any mutation
+- **Auth**:
+  - Reworked add/create user UX
+  - Click a row to edit
+  - Copy field value in any table field
+
+## 1.2.0 - 2026-06-30
+
+- **App**:
+  - Resizable left sidebar with snapping 🧈
+  - Improved project switching, untangle port vs. project name
+  - macOS: simplified menu bar behavior on close
+- **Firestore**:
+  - Horizontal scroll in narrow document columns
+  - Allow to clear requests and indexes tables
+- **Storage**:
+  - Improved navigation
+  - Fix drag and drop
+  - Put aside empty buckets in the bucket selector
+  - Switching project now picks proper bucket
+
 ## 1.1.0 - 2026-06-18
 
 - **App**:
