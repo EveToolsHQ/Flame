@@ -1,9 +1,25 @@
 Changelog: <https://useflame.app/en/changelog>
 
-## 1.4.0 - 2026-07-17
+## 1.5.0 - 2026-07-25
 
 - **App**:
-  - More context menu options (copy ID, value, path, open in Firebase Console, etc.)
+  - More performant tables across the whole app
+  - Resizable table columns
+  - Mutation history window to browse and inspect past changes with diffs
+  - Settings redesign with clearer connection management
+- **Auth**: Inline editing matches Firestore experience
+- **Firestore**:
+  - Table view mode 🎉
+  - Display settings for timestamps, geopoints, and numbers
+  - Better inline field editing
+  - Batch delete collections via multiselect
+  - More context in delete confirmation modals
+  - Index watcher now supports collection group indexes that belong in `fieldOverrides`
+- **Storage**: Better file details panel including new text file preview
+
+## 1.4.0 - 2026-07-17
+
+- **App**: More context menu options (copy ID, value, path, open in Firebase Console, etc.)
 - **Firestore**:
   - Highlight changes when document changes externally
   - Type-colored field values
@@ -15,14 +31,14 @@ Changelog: <https://useflame.app/en/changelog>
   - Connect to live Firebase projects 🔥 (beta)
   - Read-only mode (default for live projects)
   - Settings redesign
-- **Firestore**:
-  - Field-level undo/redo
-  - Improved handling of document references
-  - Keep a journal of changes for any mutation
 - **Auth**:
   - Reworked add/create user UX
   - Click a row to edit
   - Copy field value in any table field
+- **Firestore**:
+  - Field-level undo/redo
+  - Improved handling of document references
+  - Keep a journal of changes for any mutation
 
 ## 1.2.0 - 2026-06-30
 
@@ -41,8 +57,7 @@ Changelog: <https://useflame.app/en/changelog>
 
 ## 1.1.0 - 2026-06-18
 
-- **App**:
-  - Subscription support with free trial
+- **App**: Subscription support with free trial
 
 ## 1.0.0 - 2026-06-11 🎉
 
@@ -60,14 +75,10 @@ Changelog: <https://useflame.app/en/changelog>
 
 ## 0.9.1 - 2026-05-11
 
-- **App**:
-  - Add a reload menu item and shortcut
-- **Auth**:
-  - Fix disabling users
-- **Firestore**:
-  - More robust syncing and caching with self-heal
-- **Queues**:
-  - Fix double-encoding in queue messages
+- **App**: Add a reload menu item and shortcut
+- **Auth**: Fix disabling users
+- **Firestore**: More robust syncing and caching with self-heal
+- **Queues**: Fix double-encoding in queue messages
 
 ## 0.9.0 - 2026-04-29
 
@@ -100,14 +111,14 @@ Changelog: <https://useflame.app/en/changelog>
 
 ## 0.8.0 - 2026-03-15
 
-- **Firestore**:
-  - Multiple databases support, identifying default database from `firebase.json`
-  - Cache data by project/database to avoid full refresh when switching
-  - For so new documents show up immediately when added to a new collection
 - **App**:
   - Fix app icon
   - Fix tabs overflow
   - Fix lag in bug report text field
+- **Firestore**:
+  - Multiple databases support, identifying default database from `firebase.json`
+  - Cache data by project/database to avoid full refresh when switching
+  - For so new documents show up immediately when added to a new collection
 
 ## 0.7.1 - 2026-02-13
 
@@ -162,24 +173,24 @@ Changelog: <https://useflame.app/en/changelog>
 
 ## 0.4.0 - 2026-01-21
 
-- **Performance**: Optimize rerenders and disk access
-- **Firestore**: Nested fields, geopoints, references
 - **App**:
+  - Optimize rerenders and disk access
   - Auto-discover emulators on boot
   - Translations
+- **Firestore**: Nested fields, geopoints, references
 
 ## 0.3.x - 2026-01-19
 
+- **App**: Footer with project switcher and system versions
 - **Firestore**:
   - JSON editor full height
   - Copy ID
   - Delete collection cache fix
 - **Storage**: Editable breadcrumb path
-- **App**: Footer with project switcher and system versions
 
 ## 0.2.x - 2026-01-15
 
+- **App**: Auto update
 - **Firestore**:
   - Fix timestamp issues
   - Allow to turn off denied requests badge
-- **App**: Auto update
