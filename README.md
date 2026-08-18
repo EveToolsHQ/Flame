@@ -1,23 +1,22 @@
 # Flame
 
-Flame is a desktop app that gives you an enhanced interface for the
-[Firebase Emulator](https://firebase.google.com/docs/emulator-suite).
-Better UX, more features, and native desktop performance, while staying
-fully compatible with your existing Firebase projects and emulator
-setup.
+Flame is a desktop GUI for [Firebase](https://firebase.google.com/).
+Browse and edit Auth, Firestore, Functions, and Storage. Connect a
+local emulator or a live Firebase project.
 
 ![Flame](https://useflame.app/og/og.en.webp)
 
 ## Features
 
-- **Auth** - Improved user management and editing
-- **Firestore** - Tree view and stronger data editing tools
-- **Cloud Functions** - Invoke and inspect functions from the app
-- **Storage** - Visual file browser and management
-- **Logs** - View and filter emulator logs in one place
+- **Auth** - User management and editing
+- **Firestore** - Tree view and data editing
+- **Cloud Functions** - Invoke and inspect functions
+- **Storage** - Visual file browser
+- **Logs** - View and filter emulator logs
 
-Flame runs alongside the official Firebase Emulator. No changes to your
-Firebase config or code required.
+Connect a local
+[Firebase emulator](https://firebase.google.com/docs/emulator-suite) or
+a live project. No changes to your Firebase config or app code.
 
 ## Download
 
