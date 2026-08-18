@@ -1,5 +1,12 @@
 Changelog: <https://useflame.app/en/changelog>
 
+## 1.6.0 - 2026-08-17
+
+- **Firestore**:
+  - Faster table view for large collections
+  - Expand/collapse nested fields
+  - Inline edit improvements
+
 ## 1.5.0 - 2026-07-25
 
 - **App**:
