@@ -1,5 +1,13 @@
 Changelog: <https://useflame.app/en/changelog>
 
+## 1.8.0 - 2026-08-29
+
+- **App**: Tabs and multiple windows support 🔥
+
+## 1.7.0 - 2026-08-23
+
+- **Firestore**: Multi-clause sort, filter, and limit queries
+
 ## 1.6.0 - 2026-08-17
 
 - **Firestore**:
